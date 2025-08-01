@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <script src="array.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="styleindex.css">
+    </head>
+    <body>
+        <div class="card">
+            <input type="number" placeholder="Enter the Amount" id="amo" required>
+            <button onclick="setamount()">Set Amount</button>
+            <h3>Total Amount </h3><p>$0</p>
+            <input type="number" placeholder="Enter the Expenses" id="rem" required>
+            <button onclick="add()">add</button>
+            <br>
+            <br>
+            <br>
+            <button onclick="getRemainingBudget()">Get Remaining Budjet</button>
+        </div>
+        <h1 id="answer"></h1>
+    </body>
+</html>
